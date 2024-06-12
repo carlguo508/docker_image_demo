@@ -1,2 +1,2 @@
 # docker_image_demo
-This is a simple app and docker image (for study use)
+This is a simple flask app and its docker image (for study use)
