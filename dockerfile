@@ -7,7 +7,8 @@ WORKDIR /app
 COPY . /app
 
 #install dependencies
-RUN pip install -r requirements.txt
+RUN pip install --upgrade pip
+RUN pip install --default-timeout=100 -r requirements.txt
 
 # 使端口80可用于世界范围内的连接
 EXPOSE 80
